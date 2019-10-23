@@ -6,17 +6,21 @@ AI 在线教学安装说明
 
 ========================Windows安装方法========================
 1.在计算机上安装java8，并配置环境变量。在命令行在通过java- version检测是否安装成功。
-2.打开目录aisource。
-3.找到目录bin，然后双击startup.bat启动服务。
-4.通过http://127.0.0.1:8080访问程序。
+2.在计算机上安装apache Tomcat 8
+3.找到apache Tomcat目录，将下载的ROOT目录替换apache Tomcat/webapps/ROOT目录
+4.将yumin发给我的视频按照图片中的文件名更改后拷贝至apache Tomcat/webapps/ROOT/static/video目录
+5.找到目录bin，然后双击startup.bat启动服务。
+6.通过http://127.0.0.1:8080访问程序。
 ================================================================
 
 
 
 ========================Linux安装方法========================
 1.在计算机上安装java8，并配置环境变量。在命令行在通过java- version检测是否安装成功。
-2.打开目录aisource。
-3.通过./bin/startup.sh 启动服务。
-4.通过http://127.0.0.1:8080访问程序。
+2.在计算机上安装apache Tomcat 8
+3.找到apache Tomcat目录，将下载的ROOT目录替换apache Tomcat/webapps/ROOT目录
+4.将yumin发给我的视频按照图片中的文件名更改后拷贝至apache Tomcat/webapps/ROOT/static/video目录
+5.通过./bin/startup.sh 启动服务。
+6.通过http://127.0.0.1:8080访问程序。
 ================================================================
 
