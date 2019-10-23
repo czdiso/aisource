@@ -1,0 +1,259 @@
+.table_view {
+   width: 90%;
+   margin: 10px auto;
+   text-align: center;
+   padding: 0;
+   border-collapse: collapse;
+ }
+
+ .table_title {
+   text-align: center;
+   font-size: 20px;
+   line-height: 30px;
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+
+ .table_title_sub {
+   text-align: center;
+   font-size: 12px;
+   line-height: 30px;
+   margin-bottom: 10px;
+   font-weight: normal;
+ }
+
+ .table_view .no {
+   font-size: 12px;
+   text-align: left;
+   padding-left: 5px;
+   display: block;
+ }
+
+ .table_view .no label {
+   font-weight: bold;
+ }
+
+ .table_view tr {
+   height: 40px;
+   min-height: 40px;
+ }
+
+ .table_view td {
+   width: 100px;
+   min-height: 30px;
+   border: 1px solid #aaa;
+ }
+
+ .table_view .l {
+   min-width: 80px;
+   min-height: 30px;
+   background: #f5f5f5;
+   border: 1px solid #aaa;
+ }
+
+ .table_view .ll {
+   min-width: 80px;
+   min-height: 30px;
+   background: #fefefe;
+   border: 1px solid #aaa;
+   padding-left: 5px;
+   text-align: left;
+ }
+
+ .table_view .c {
+   width: 80%;
+   height: 30px;
+   line-height: 25px;
+   text-align: left;
+   padding: 0 5px 0 5px;
+   border: 1px solid #aaa;
+ }
+
+ .table_view .c2 {
+   width: 40%;
+   height: 30px;
+   line-height: 25px;
+   text-align: left;
+   padding: 0 5px 0 5px;
+   border: 1px solid #aaa;
+ }
+
+ .table_view .c span {
+   display: block;
+   word-break: break-all;
+ }
+
+ .table_view .tdzz {
+   text-align: left;
+   line-height: 20px;
+   padding-left: 10px;
+ }
+
+ .table_view .htd {
+   min-height: 200px;
+   height: auto;
+   overflow: hidden;
+ }
+
+ .table_view .btd {
+   font-weight: bold;
+ }
+
+ .table_view td img {
+   width: 80px;
+   height: 80px;
+   display: inline-block;
+   margin: 5px;
+   border: 1px solid #eee;
+ }
+
+ .table_view td a {
+   width: 80px;
+   height: 80px;
+   display: inline-block;
+   margin: 5px;
+   border: 1px solid #dddddd;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+
+
+ .sub {
+   margin-left: 2em
+ }
+
+ .sub-2 {
+   margin-left: 4em
+ }
+
+ .b {
+   font-weight: bold;
+ }
+
+ .bn {
+   font-weight: normal;
+ }
+
+
+ .pageview {
+   width: 600px;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ /* oa 鐎光剝澹掗悩鑸碉拷锟� */
+ .astatus {
+   position: absolute;
+   top: 45px;
+   right: 10px;
+   font-size: 140px;
+ }
+
+ /* 閺屻儳婀呯�光剝澹掓潻鍥┾柤 */
+ .table_astatus {
+   width: 90%;
+   margin: 10px auto;
+   text-align: center;
+   padding: 0;
+   border-collapse: collapse;
+   table-layout: fixed;
+ }
+
+ .table_astatus tr {
+   height: auto;
+   padding: 10px;
+   min-height: 50px;
+   overflow: hidden;
+ }
+
+ .table_astatus td {
+   border-width: 1px;
+   border-color: #aaa;
+ }
+
+ .table_astatus .l {
+   width: 20%;
+   color: #2f96b4;
+   font-size: 40px;
+   border-top-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+ }
+
+ .table_astatus .c {
+   width: 60%;
+   text-align: left;
+   line-height: 20px;
+   color: #666;
+   border-top-style: solid;
+   border-bottom-style: solid;
+ }
+
+ .table_astatus .r {
+   width: 20%;
+   border-top-style: solid;
+   border-bottom-style: solid;
+   border-right-style: solid;
+ }
+
+ /* end */
+ /* 打印按钮 */
+ .noprint {
+   width: 80px;
+   height: 80px;
+   margin: 10px auto;
+   display: block;
+   border: 1px solid #ddd;
+   display: none;
+   color: #666;
+   text-decoration: none;
+   font-weight: normal;
+ }
+
+ .noprint:hover {
+   background-color: #eee;
+ }
+
+ .noprint .icon {
+   width: 48px;
+   height: 48px;
+   display: block;
+   margin: 5px auto;
+ }
+
+ .btn_print {
+   color: #1b479c;
+   /*#016796*/
+   text-decoration: none;
+   margin: 20px auto;
+   font-size: 16px;
+   width: 40px;
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .usphoto {
+   width: 18px;
+   height: 18px;
+   border-radius: 18px;
+   overflow: hidden;
+   vertical-align: middle;
+   border: 1px solid #ddd;
+ }
+
+ .printdiv {
+   text-align: center;
+ }
+
+ .tl {
+   width: 175px;
+   display: inline-block;
+ }
+
+ .lc {
+   text-align: center;
+ }
+
+ .lr {
+   text-align: right;
+ }
